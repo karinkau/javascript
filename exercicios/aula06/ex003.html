@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando números</title>
+    <!--CSS 3-->
+    <style>
+        body {background-color: rgb(172, 238, 238);}
+        h1 {color: rgb(3, 3, 39);font-size: 40px;}
+        h2{color:brown; font-size: 30px;}
+        p {color: black;font-size: 20px;}
+    </style>
+</head>
+<body>
+    <h1>Aula 06 - EX003</h1>
+    <hr>
+    <h2>Conversão simplificada dos números</h2>
+    <p>Number(numero) <br>Esse código somará os números reais e os inteiros.</p>
+
+    <!--JS ▬ JavaScript-->
+    <script>
+        /*
+        var n1 = window.prompt('Digite um número:')
+        var n2 = window.prompt('Digite outro número:')
+        var soma = n1 + n2
+        window.alert('Soma = ' + soma)  
+        //apenas concatena - junta os números.
+        */
+
+        /*
+        //conversão para números inteiros
+        var n1 = Number.parseInt(window.prompt('Digite 1º número:'))
+        var n2 = Number.parseInt(window.prompt('Digite 2º número:'))
+        var soma = n1 + n2
+        window.alert('Soma = ' + soma)  
+        */
+
+        /*
+        //conversão para números reais
+        var n1 = Number.parseFloat(window.prompt('Digite 1º número:'))
+        var n2 = Number.parseFloat(window.prompt('Digite 2º número:'))
+        var soma = n1 + n2
+        window.alert('Soma = ' + soma)  
+        */
+       
+        //conversão simplificada
+        var n1 = Number(window.prompt('Digite 1º número:'))
+        var n2 = Number(window.prompt('Digite 2º número:'))
+        var soma = n1 + n2
+
+        /* string com concatenação:
+        window.alert('Soma entre ' + n1 + '+' + n2 + '=' + soma)
+        */
+
+        //string com espaço reservado:
+        window.alert(`A soma entre ${n1} + ${n2} = ${soma}`)
+
+        /*
+        ♦ Conversão para String
+        String(numero)    → gerar uma string
+        numero.toString() → converte para string
+
+        ♦ Métodos para strings
+        nome.length        → quantidade de caracteres
+        nome.toLowerCase() → letras maiúsculas
+        nome.toUpperCase() → letras minúsculas
+        */
+    </script>
+</body>
+</html>

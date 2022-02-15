@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 004</title>
+    <!--estilo-->
+    <style>
+        body{background-color: white; color: blue; font: normal 2em verdana;}
+        h1{font: bolder 30pt Arial; color:black;}
+        h2{font: normal 25pt Arial; color:black;}
+        p{font: normal 15pt Arial; color:black;}
+    </style>
+</head>
+<body>
+    <h1>Aula 6 - EX004</h1>
+    <hr>
+    <h2>Treinando métodos em strings.</h2>
+    <p>Nesse exercício, as tags HTML foram usadas dentro do script JS</p>
+    <hr>
+
+    <script>
+        /* MÉTODOS PARA STRING
+        length      → mostra quantos caracteres tem a palavra.
+        toUpperCase → tudo em maiúsculo.
+        toLowerCase → tudo minúsculo.
+        */
+
+        //criando a variável nome
+        var nome = window.prompt('Qual é o seu nome?')
+
+        //obs: as mensagem aparecerão no BODY - na página HTML.
+
+        document.write(`Olá! <strong><mark>${nome}</mark></strong>, seu nome tem ${nome.length} letras.<br><br>`)
+        
+        document.write(`O nome <ins>${nome}</ins> em maiúsculo = ${nome.toUpperCase()}. <br><br>`)
+
+        document.write(`O nome <em>${nome}</em> em minúsculo = ${nome.toLowerCase()}. <br><br>`)
+
+        /*
+        FORMATANDO NÚMEROS
+
+        var n1 = 1543.5
+
+        colocar 2 casas decimais
+        n1.toFixed(2)
+
+        trocar ponto por vírgula
+        n1.toFixed(2).replace('.',',')
+
+        formatando moeda, dinheiro
+        n1.toLocaleString('pt-BR',{style:'currency',currency:'BRL'})
+
+        Currency = moeda
+        BRL → Real
+        USD → Dólar
+        EUR → Euro
+        */
+    </script>
+</body>
+</html>
