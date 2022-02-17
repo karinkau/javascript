@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body{background-color: #000000;
+            color: #ffffff;
+            font: normal 18pt Verdana;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+
+    <p>Aqui vai o resultado:</p>
+
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
+
+    <div id="msg">Clique em mim</div>
+    <br>
+    <div name="msg">Clique aqui</div>
+
+    <script>
+        /* CONFIGURAÇÕES INICIAIS
+            //forma simples de add componente
+            window.document.write('Olá, Mundo!')
+
+            //mostra set de caracteres - UTF-8
+            window.document.write(window.document.charset)
+
+            //navegador atual - Netscape
+            window.document.write(window.navigator.appName)
+
+            //mostra URL de acesso
+            window.document.write(window.document.URL)
+        */
+
+        //selecionando o body
+        var corpo = window.document.body
+
+        //Selecionando por marca:
+        var p1 = window.document.getElementsByTagName('p')[1]
+
+        /* ALERT - CAIXA DE AVISO
+            //Live Preview não mostra alerts
+            window.alert(p1.innerText)
+        */ 
+
+        /* SELECIONAR POR MARCA
+            //mostra o texto do parágrafo selecionado
+            window.document.write('Está escrito assim: ' + p1.innerText)
+
+            //mudar a cor da fonte na marca selecionada
+            p1.style.color = 'blue'
+
+            //mudar a cor de fundo do body
+            corpo.style.background = 'red'
+
+            //não puxa o strong da marca selecionada
+            document.write(p1.innerText)
+
+            //mostra o strong da marca selecionada
+            document.write(p1.innerHTML)
+        */
+
+        /* SELECIONAR ID
+            //selecionando por ID
+            var d = window.document.getElementById('msg')
+            d.style.background = 'green'
+            //d.innerText = 'Estou aguardando ...'
+        */
+
+        /* SELECIONAR POR NOME
+            var x = window.document.getElementsByName('msg')[0]
+            x.innerText = 'olá'
+        */
+
+        var k = window.document.querySelector('div#msg')
+        k.style.color = 'cyan'
+        k.style.background = 'blue'
+    </script>
+</body>
+</html>
