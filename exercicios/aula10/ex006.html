@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        div#area{
+            font: normal 20pt Verdana;
+            background: rgb(25, 156, 25);
+            color: #fff;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!--DIV COM 3 CHAMADAS DE FUNÇÃO - não recomendado no html.
+        <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+            Interaja ...
+        </div> 
+    -->
+
+    <div id="area">
+        Interaja ...
+    </div>
+
+    <script>
+        //variável escopo global
+        var interaja = window.document.getElementById('area')
+
+        //disparar eventos em JS - prestar atenção nos eventos:
+        interaja.addEventListener('click',clicar)
+        interaja.addEventListener('mouseenter',entrar)
+        interaja.addEventListener('mouseout',sair)
+
+        function clicar() {
+            interaja.innerText = 'Clicou'
+            interaja.style.background = 'red'
+        }
+        function entrar(){
+            interaja.innerText = 'Entrou'
+        }
+        function sair(){
+            interaja.innerText = 'Saiu'
+            interaja.style.background = 'green'
+        }
+    </script>
+</body>
+</html>
