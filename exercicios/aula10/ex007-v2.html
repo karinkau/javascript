@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Somando números</title>
+    
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+
+    <style>
+        body{font: normal 18pt Verdana; background-color: burlywood; padding: 10pt;}
+        input{font: bolder 18pt  Arial; width: 100px; background-color: whitesmoke;}
+        input#somar{background-color: goldenrod;}
+        input#subtrair{background-color: goldenrod;}
+        input#multiplicar{background-color: goldenrod;}
+        input#dividir{background-color: goldenrod;}
+        input#limpar{background-color: firebrick;}
+        section{margin: 30px;}
+        div{margin: 10px; color: blue; font: bolder 40pt Impact blue;}
+    </style>
+</head>
+<body>
+        <h1>Somando valores</h1>
+        <p>O início dos cálculos em JS.</p>
+        <section>
+            <input type="number" name="txtn1" id="txtn1"> 
+            <input type="number" name="txtn2" id="txtn2">
+            <br><br>
+
+            <input id="somar" type="button" value="+" onclick="somar()">
+            <input id="subtrair" type="button" value="-" onclick="subtrair()">
+            <input id="multiplicar" type="button" value="x" onclick="multiplicar()">
+            <input id="dividir" type="button" value="/" onclick="dividir()">
+            <br><br>
+            <input id="limpar" type="button" value="Limpar" onclick="limpar()">
+            <div id="resultado"></div>
+        </section>
+
+    <!--FUNÇÕES EM JAVASCRIPT-->
+    <Script>
+        function limpar() {
+            resultado.innerText = ' '
+            txtn1.value = ' '
+            txtn2.value = ' '
+        }//fim-limpar
+
+        function somar() {
+            //atribuindo valor as varáveis
+            var N1 = window.document.getElementById('txtn1')
+            var N2 = window.document.getElementById('txtn2')
+            var resultado = window.document.getElementById('resultado')
+
+            //conversão de tipo
+            var n1 = Number(N1.value)
+            var n2 = Number(N2.value)
+
+            //Soma dos valores
+            var soma = n1 + n2 
+
+            //Resultado final
+            resultado.innerText = `${soma}`
+        }//fim-somar
+
+        function subtrair() {
+            //atribuindo valor as varáveis
+            var N1 = window.document.getElementById('txtn1')
+            var N2 = window.document.getElementById('txtn2')
+            var resultado = window.document.getElementById('resultado')
+
+            //conversão de tipo
+            var n1 = Number(N1.value)
+            var n2 = Number(N2.value)
+
+            //Soma dos valores
+            var subtraido = n1 - n2 
+
+            //Resultado final
+            resultado.innerText = `${subtraido}`
+        }//fim-subtrair
+
+        function multiplicar() {
+            //atribuindo valor as varáveis
+            var N1 = window.document.getElementById('txtn1')
+            var N2 = window.document.getElementById('txtn2')
+            var resultado = window.document.getElementById('resultado')
+
+            //conversão de tipo
+            var n1 = Number(N1.value)
+            var n2 = Number(N2.value)
+
+            //Soma dos valores
+            var multiplicado = n1 * n2 
+
+            //Resultado final
+            resultado.innerText = `${multiplicado}`
+        }//fim-multiplicar
+
+        function dividir() {
+            //atribuindo valor as varáveis
+            var N1 = window.document.getElementById('txtn1')
+            var N2 = window.document.getElementById('txtn2')
+            var resultado = window.document.getElementById('resultado')
+
+            //conversão de tipo
+            var n1 = Number(N1.value)
+            var n2 = Number(N2.value)
+
+            //Soma dos valores
+            var dividido = n1 / n2 
+
+            //Resultado final
+            resultado.innerText = `${dividido}`
+        }//fim-subtrair
+
+        //evento mouse move +
+        var mais = window.document.getElementById('somar')
+        mais.addEventListener('mouseenter',dentroMais)
+        mais.addEventListener('mouseout',foraMais)
+        function dentroMais(){
+            mais.style.background = 'gold'
+        }
+        function foraMais(){
+            mais.style.background = 'goldenrod'
+        }
+
+        //evento mouse move -
+        var menos = window.document.getElementById('subtrair')
+            menos.addEventListener('mouseenter',dentroMenos)
+            menos.addEventListener('mouseout',foraMenos)
+        function dentroMenos(){
+            menos.style.background = 'gold'
+        }
+        function foraMenos(){
+            menos.style.background = 'goldenrod'
+        }
+        
+        //evento mouse move *
+        var vezes = window.document.getElementById('multiplicar')
+            vezes.addEventListener('mouseenter',dentroVezes)
+            vezes.addEventListener('mouseout',foraVezes)
+        function dentroVezes(){
+                vezes.style.background = 'gold'
+        }
+        function foraVezes(){
+            vezes.style.background = 'goldenrod'
+        }
+
+        //evento mouse move /
+        var dividi = window.document.getElementById('dividir')
+        dividi.addEventListener('mouseenter',dentroDividi)
+        dividi.addEventListener('mouseout',foraDividi)
+        function dentroDividi(){
+            dividi.style.background = 'gold'
+        }
+        function foraDividi(){
+            dividi.style.background = 'goldenrod'
+        }
+
+        //evento mouse move limpar
+        var limpo= window.document.getElementById('limpar')
+        limpo.addEventListener('mouseenter',dentroLimpo)
+        limpo.addEventListener('mouseout',foraLimpo)
+        function dentroLimpo(){
+            limpo.style.background = 'red'
+        }
+        function foraLimpo(){
+            limpo.style.background = 'firebrick'
+        }
+    </Script>
+</body>
+</html>
