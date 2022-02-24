@@ -37,7 +37,7 @@ Esse curso complementa o Curso de **HTML5** e **CSS3** em andamento.
 *DOM - Document Object Model.*
 
 - [x] Aula 9 – Introdução ao DOM
-- [ ] Aula 10 – Eventos DOM
+- [x] Aula 10 – Eventos DOM
 
 🌟Módulo D: Condições em JavaScript – 5 aulas:
 
