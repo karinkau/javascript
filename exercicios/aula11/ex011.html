@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nacionalidade ♀♂</title>
+    <title>☺ Nacionalidade ♀♂</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <style>
         body {
             background-color: rgba(79, 206, 206, 0.315);
             font-family: verdana;
             font-size: 18pt;
+            padding: 20px;
+            padding-top: 0px;
         }
         input#btnverificar, #btnlimpar {
             background-color:rgb(0, 255, 13);
@@ -50,6 +53,7 @@
             font-size: 18pt;
             font-style: oblique;
         }
+        h1{color: darkblue; font-family:Impact, 'Arial Narrow Bold', sans-serif}
     </style>
 </head>
 <body>
@@ -57,42 +61,58 @@
     <hr>
     <p><small>Digite o seu país e clique em verificar.</small></p>
     <hr>
+    <!--caixa de texto para usuário digitar o país-->
     <ins>Nacionalidade</ins>: <input type="string" name="txtpais" id="txtpais">
 
-    <input type="button" id="btnverificar" value="Verificar_situação" onclick="verificar()">
+    <!--botão verificar situação-->
+    <input type="button" id="btnverificar" value="Verificar" onclick="verificar()">
 
+    <!--botão limpar campos-->
     <input type="button" id="btnlimpar" value="Limpar " onclick="limpar()">
+
+    <!--botão fechar aba do navegador-->
     <input type="button" id="btnfechar" value="X" onclick="fechar()" title="Deseja FECHAR a janela?">
     <hr>
+    <!--labels para saída de informação-->
+    <div id="nacio"></div>
     <div id="resultado"></div>
+    <hr>
+    <img src="./nacionalidade.jpg" alt="nacionalidade" width="400px" height="250px" style="padding-left: 50px;">
 
+    <!--Funções em JS-->
     <script>
+        //Função Limpar campos
+         function limpar() {
+            txtpais.value = ""
+            resultado.innerHTML = ""
+            nacio.innerHTML = ""
+        }//fim-limpar
+
+        //Função Fechar Aba/ janela do navegador
+        function fechar() {
+            window.close()
+        }//fim-fechar
+
+        //Função Verificar nacionalidade
         function verificar() {
             //atribuindo valor a variável
             var txtPAIS = document.querySelector('input#txtpais')
-            var resultado = document.querySelector('div#resultado')
+            var lbnacio = document.querySelector('div#nacio')
+            var lbresultado = document.querySelector('div#resultado')
 
             //conversão de tipo
-            var pais = String(txtPAIS.value) 
+            var pais = String(txtPAIS.value.toUpperCase()) 
 
             //saída - resultado
-            resultado.innerHTML = `<p>Sua Nacionalidade é = <strong>${pais}</strong></p>`
+            lbnacio.innerHTML = `<p>Você é do = <strong>${pais}</strong></p>`
 
             //condicional composta
-            if (pais == 'Brasil' || pais=='brasil' || pais=='BRASIL') {
+            if (pais=='BRASIL') {
                 resultado.innerHTML = 'Você é brasileiro!'
             } else {
                 resultado.innerHTML = 'Você é estrangeiro!'
             }
         }//fim-verificar
-
-        function limpar() {
-            txtpais.value = ""
-            resultado.innerHTML = ""
-        }
-        function fechar() {
-            window.close()
-        }
     </script>
 </body>
 </html>

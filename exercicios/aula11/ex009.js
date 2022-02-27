@@ -1,12 +1,12 @@
-/* ======================
-                AULA 11 - ex009
-    ======================
+/* =================================
+            AULA 11 - ex009
+    =================================
 */
 var pais = 'EUA'
 
 console.log(`Vivendo em ${pais}`)
 
-//Condição composta
+//Condicional composta
 if (pais == 'Brasil') {
     console.log('Você é brasileiro!')
 } else {
@@ -15,6 +15,6 @@ if (pais == 'Brasil') {
 
 /*
     Com a extensão NODE.js Exerc 
-    basta pressionar F8 no teclaado 
-    para EXECUTAR 
+    basta pressionar F8 no teclado 
+    para EXECUTAR o script 
 */

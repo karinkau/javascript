@@ -19,6 +19,10 @@
             line-height: 200px;
             text-align: center;
         }
+        p#mouve{font-size: 18pt; font-weight: 500;}
+        p#clicar{font-size: 18pt; font-family: Impact;}
+        body{background-color: navajowhite; padding: 30px;}
+        h1{font: bold 30pt Verdana; color: maroon;}
     </style>
 </head>
 <body>
@@ -27,11 +31,15 @@
             Interaja ...
         </div> 
     -->
+    <h1>INTERAÇÃO</h1>
+    <P id="mouve">Passe o mouse sobre a caixa</P>
+    <p id="clicar">clique na caixa!</p>
 
     <div id="area">
         Interaja ...
     </div>
 
+    <!--Funções em JS-->
     <script>
         //variável escopo global
         var interaja = window.document.getElementById('area')
