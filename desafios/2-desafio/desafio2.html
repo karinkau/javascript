@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>  Desafio boas-vindas ☺</title>
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="file:///C:/Users/Karin%20Kau/Desktop/java-script/imagens/favicon.ico" type="image/x-icon">
+
+    <!--estilo da página-->
+    <style>
+        body{background: whitesmoke;}
+
+        button {font-family: arial;font-size: 20pt;font-weight: 600; color: midnightblue;background-color:rgb(170, 247, 243); padding: 20px; border-radius: 15px; margin: 25px;margin-left: 50px;}
+
+        button:hover{background-color:aqua;}
+
+        h1 {color: rgb(3, 3, 39);font-size: 50px;margin-left: 50px; }
+
+        hr{width: 100%;height: 3px;background:lightsalmon;}
+
+        a{font-family: Cambria;font-size: 25px;font-weight: 600;}
+        a:hover{background-color:rgb(170, 247, 243);}
+
+        p{font-family: arial;font-size: 18px;color: black;}
+    </style>
+</head>
+<body>
+    <hr>
+    <!--pdf desafio 01-->
+    <p>
+        Desafio nº 2 proposto por Gustavo Guanabara no curso de JavaScript → 
+        <a href="./2-desafio-boas-vindas.pdf" target="_blank" rel="prev" type="text/pdf">PDF Desafio 02</a></p>
+    <hr>
+
+    <h1>Boas-vindas</h1>
+
+    <!--botão responda-->
+    <button onclick="responda()">░ Inicie o desafio ░</button>
+
+     <!--função do botão responda-->
+    <script>
+        function responda(){
+            let nome = window.prompt('▬ Qual é o seu nome?')  
+            let anos = window.prompt(`▬ Olá! ${nome}! Quantos anos você tem?`)
+            window.alert(`\n\n♀♂♀♂♀♂♀♂♀♂♀♂♀♂♀♂♀♂♀♂♀♂♀♂\n\n  Acabei de conhecer ${nome}, que tem ${anos} anos.\n\n♀♂♀♂♀♂♀♂♀♂♀♂♀♂♀♂♀♂♀♂♀♂♀♂`)
+        }
+    </script>
+
+    <!--Só falta fazer o tratamento para anos receber apenas número interiro-->
+</body>
+</html>
