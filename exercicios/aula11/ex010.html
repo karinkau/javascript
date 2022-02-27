@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran</title>
+    <style>
+        body {
+            background-color: rgba(79, 206, 206, 0.315);
+            font-family: verdana;
+            font-size: 18pt;
+        }
+        input#btncalcular {
+            background-color:rgb(0, 255, 13);
+            font-family: Geneva, sans-serif;
+            font-size: 18pt;
+        }
+        input#btncalcular:hover {
+            background-color: limegreen;
+            color: darkgreen;
+        }
+        strong {
+            font-family: 'Courier New', Courier, monospace;
+            color: red;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sistema de multas</h1>
+    <hr>
+    <p>Digite a velocidade do carro e depois clique em verificar.</p>
+    <hr>
+    Velocidade do carro: <input type="number" name="txtvel" id="txtvel"> km/h.
+
+    <input type="button" id="btncalcular" value="Verificar" onclick="calcular()">
+
+    <div id="resultado"></div>
+
+    <script>
+        function calcular() {
+            //atribuindo valor a variável
+            var txtVEL = document.querySelector('input#txtvel')
+            var resultado = document.querySelector('div#resultado')
+
+            //conversão de tipo
+            var vel = Number(txtVEL.value)
+
+            //saída - resultado
+            resultado.innerHTML = `<p>Sua velocidade atual é = <strong>${vel} km/h</strong></p>`
+
+            //condicional simples
+            if (vel > 60) {
+                resultado.innerHTML += `<p>Você está <strong>MULTADO!</strong> por ecesso de velocidade</p>`
+            }
+            resultado.innerHTML += `<p>Dirija com cinto de segurança!</p>`
+        }
+    </script>
+</body>
+</html>
