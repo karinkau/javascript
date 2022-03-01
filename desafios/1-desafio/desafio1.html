@@ -5,66 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>  Mensagens ☺</title>
+    <title>Mensagens ☺</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
 
-    <!--favicon-->
-    <link rel="shortcut icon" href="" type="image/x-icon">
+    <!--Funções em JS-->
+    <script src="desafio-01.js"></script>
 
-    <!--estilo da página-->
     <style>
-        body{background: whitesmoke;}
-
-        button {
-            font-family: Verdana;
-            font-size: 20pt;
-            font-weight: 600; 
-            color: midnightblue;
-            background-color:rgb(170, 247, 243); 
-            padding: 20px; 
-            border-radius: 15px; 
+         hr{padding: 3px; background-color: #fcfcb1; margin: 20px;border-style:inset;}
+        /*botões do desafio*/
+        input {
+            font-family: 'Faster One', cursiva;;
+            font-size: 30pt;         
+            color: #000;
+            background-color: #FFD700; 
+            padding: 30px; 
+            border-radius: 70px; 
+            border-style: outset;
+            border-color: #FFFF30;
             margin: 25px;
             margin-left: 50px;
         }
-        button:hover{background-color: cyan;}
-
-        h1 {
-            background: lightsalmon;
-            color: brown;
-            font-size: 50px;
-            margin-left: 50px;
-        }
-
-        hr{width: 100%;height: 3px;background:lightsalmon;}
-
-        a{font-family: Cambria;font-size: 25px;font-weight: 600;}
-        a:hover{background-color:rgb(170, 247, 243);}
-
-        p{font-family: arial;font-size: 18px;color: black;}
+        input:hover{background-color: #FFFF00;}
     </style>
 </head>
 <body>
-    <hr>
-    <!--pdf desafio 01-->
-    <p>
-        Desafio nº 1 proposto por Gustavo Guanabara no curso de JavaScript → 
-        <a href="./1-desafio-mensagens.pdf" target="_blank" rel="prev" type="text/pdf">PDF Desafio 01</a></p>
-    <hr>
+    <header>
+        <h1>▬▬ Desafio em JS ▬▬</h1>
+        <p>Desafios propostos pelo Prof. Gustavo Guanabara para o curso de Javascript do Curso em Vídeo.</p>
+    </header>
 
-    <h1>Desafios da mensagens</h1>
+    <nav>
+        <a href="../../index.html">Início</a>
+        <a href="../../desafios-em-js.html">Desafios</a>
+        <a href="../../exercicios-em-js.html">Exercícios</a>
+    </nav>
+   
+    <main>
+        <h1>Desafio das Mensagens em JS</h1>
 
-    <!--botão nº 1-->
-    <button onclick="um()">• Botão 1</button>
+        <p>Esse desafio complementa o Curso em Javascript.</p>
 
-    <!--botão nº 2-->
-    <button onclick="dois()">• Botão 2</button>
+        <!--DESAFIO 01-->
+        <section>
+            <p>Esse é o <strong>primeiro desafio</strong> proposto para o Curso em Javascript. Logo abaixo, têm-se o PDF com as instruções do desafio e depois a resolução do desafio.</p>
+            <a href="../../desafios/1-desafio/1-desafio-mensagens.pdf" target="_blank" rel="next" >Instruções do desafio</a>
+            <hr>
+            <h3>Desafio 01 na prática:</h3>
+            <input type="button" value="Botão 1" onclick="um()">
 
-     <!--botão nº 3-->
-     <button onclick="tres()">• Botão 3</button>
+            <input type="button" value="Botão 2" onclick="dois()">
 
-     
-    <!-- No lugar de ter muitas linhas escritas dentro do seu documento HTML, use um arquivo externo que vai fazer a carga das suas funções JS no final da página. Isso separa o que é conteúdo (HTML) do que é funcionalidade (JS) -->
+            <input type="button" value="Botão 3" onclick="tres()">
+        </section>
+            <!--fim-desafio-01-->
 
-    <script src="desafio-01.js"></script>
+        <br><hr>
+        <p>Em 2022, estudando <strong>HTML5</strong>, <strong>CSS3</strong> e <strong>Javascript</strong>. Conhecimento nunca é demais!</p>
+    </main>
+    <footer>
+        <section class="social">
+            <a href="https://github.com/karinkau/javascript" target="_blank" rel="external">
+                <img class="social" src="../../imagens/github-11-xxl.png" alt="Símbolo Github">
+            </a>
+            <a href="https://twitter.com/karin_kau" target="_blank" rel="external">
+                <img class="social" src="../../imagens/twitter-4-xxl.png" alt="Símbolo Twitter">
+            </a>
+            <a href="https://www.facebook.com/karinkau" target="_blank" rel="external">
+                <img class="social" src="../../imagens/facebook-4-xxl.png" alt="Símbolo Facebbok">
+            </a>
+        </section> 
+        <p>| ► Desenvolvido por Karin Kau ◄ |</p>
+    </footer>
 </body>
 </html>
 
