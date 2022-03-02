@@ -190,6 +190,13 @@ div.video > iframe {
     height: 80%;
 }
 
+hr {
+    padding: 3px; 
+    background-color: #fcfcb1; 
+    margin: 20px;
+    border-style:inset;
+}
+
 /*Aside*/
 aside {
     background-color: var(--cor0);
