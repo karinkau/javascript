@@ -43,7 +43,7 @@ Esse curso complementa o Curso de **HTML5** e **CSS3** em andamento.
 
 - [x] Aula 11 – Condições (Parte 1)
 - [x] Aula 12 – Condições (Parte 2)
-- [ ] Exercícios JavaScript (Parte 1)
+- [x] Exercícios JavaScript (Parte 1)
 - [ ] Exercícios JavaScript (Parte 2)
 - [ ] Exercícios JavaScript (Parte 3)
 
@@ -67,4 +67,6 @@ Esse curso complementa o Curso de **HTML5** e **CSS3** em andamento.
 
 ---
 ### Aprender - Ensinar - Divulgar
+
+<kbd>`ass:` Karine s m Rodrigues - *@KarinKau* 2022</kbd>
 
