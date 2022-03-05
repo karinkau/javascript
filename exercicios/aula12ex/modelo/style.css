@@ -1,0 +1,50 @@
+/* =====================================================
+    LAYOUT SIMPLES PARA PRATICA DE EXERCÍCIOS 
+
+    AULA 12 EX – parte de exercícios
+    Arquivo: modelo.html
+    MODELO DE SITE
+======================================================= */
+
+@charset "UTF-8";
+
+/*corpo do site*/
+body{
+    background: darkcyan;
+    font: normal 15pt Verdana;
+    color: #000;
+}
+
+/*cabeçalho*/
+header{
+    font: bold 20pt 'Courier New', Courier, monospace;
+    color: #fff;
+    text-align: center;
+    text-decoration:underline overline;
+}
+ 
+/*seção principal*/
+section{
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.314);
+}
+
+div#div1{
+    background: aquamarine;
+    margin-bottom: 20px;
+}
+
+div#div2{
+    background: aqua;
+}
+
+/*rodapé*/
+footer{
+    color: #fff;
+    text-align: center;
+    font: italic 14pt Arial;
+}
