@@ -1,7 +1,7 @@
 #  🟡 Aprendendo JAVASCRIPT em 2022
 
-[![Aprendendo Javascript](https://img.shields.io/badge/2022-Aprendendo_Javascript_com_o_Prof._Gustavo_Guanabara_pelo_Curso_em_Vídeo-gold)](https://www.cursoemvideo.com/curso/javascript/)
-
+[![Aprendendo Javascript](https://img.shields.io/badge/2022-Aprendendo_Javascript_com_o_Prof._Gustavo_Guanabara_pelo_Curso_em_Vídeo-gold?labelColor=darkred&logo=square&logoColor=red&logoWidth=20&style=flat-square)](https://www.cursoemvideo.com/curso/javascript/)
+     
 Iniciando a aprendizagem em JavaScript, pelo Curso em Vídeo, com o prof. Gustavo Guanabara. Curso composto por 6 módulos divididos em 17 aulas, 8 exercícios e 31 vídeo-aulas.
 
 ***Curso baseado em ECMAscript***
@@ -10,7 +10,7 @@ Esse curso complementa o Curso de **HTML5** e **CSS3** em andamento.
 
 ♦ Desenvolvimento Front-End → HTML 5 + CSS3 + JS  
 
----
+___
  
 ## Índice das aulas
 
@@ -64,8 +64,16 @@ Esse curso complementa o Curso de **HTML5** e **CSS3** em andamento.
 - [ ] Aula 17 – Próximos Passos
 
 ♦ Teste JavaScript.
+___
 
----
+## Métricas do repositório
+
+<!--badges - emblemas-->
+|<img src="https://img.shields.io/website?down_color=red&down_message=Desculpe!&label=Site&color=darkred&labelColor=ffff00&logo=javascript&logoColor=red&logoWidth=20&style=flat&up_color=blue&up_message=online&url=https://karinkau.github.io/javascript/"/>|<img src="https://img.shields.io/github/license/karinkau/javascript?label=Licenca&color=darkred&labelColor=ffff00&logo=github&logoColor=red&logoWidth=20&style=flat"/>|<img src="https://img.shields.io/github/watchers/karinkau/javascript?label=Observadores&color=darkred&labelColor=ffff00&logo=Odnoklassniki&logoColor=red&logoWidth=20&style=flat"/>|<img src="https://img.shields.io/github/stars/karinkau/javascript?label=Estrelas&color=darkred&labelColor=ffff00&logo=Codemagic&logoColor=red&logoWidth=20&style=flat"/>|<img src="https://img.shields.io/github/issues/karinkau/javascript?label=Issues&color=darkred&labelColor=ffff00&logo=Indeed&logoColor=red&logoWidth=20&style=flat"/>|
+|:---:|:---:|:---:|:---:|:---:|
+|<img src="https://img.shields.io/github/forks/karinkau/javascript?label=Forks&color=darkred&labelColor=ffff00&logo=Codeforces&logoColor=red&logoWidth=20&style=flat"/>|<img src="https://img.shields.io/github/issues-pr/karinkau/javascript?label=Pull+requests&color=darkred&labelColor=ffff00&logo=AdBlock&logoColor=red&logoWidth=20&style=flat"/> |<img src="https://img.shields.io/github/languages/code-size/karinkau/javascript?label=Volume+de+codigo&color=darkred&labelColor=ffff00&logo=CodeSandbox&logoColor=red&logoWidth=20&style=flat"/>|<img src="https://img.shields.io/github/commit-activity/y/karinkau/javascript?label=Commits+por+ano&color=darkred&labelColor=ffff00&logo=Intercom&logoColor=red&logoWidth=20&style=flat"/>|<img src="https://img.shields.io/github/repo-size/karinkau/javascript?label=Volume+do+repositorio&color=darkred&labelColor=ffff00&logo=CodePen&logoColor=red&logoWidth=20&style=flat"/>|
+
+___
 ### Aprender - Ensinar - Divulgar
 
 <kbd>`ass:` Karine s m Rodrigues - *@KarinKau* 2022</kbd>
