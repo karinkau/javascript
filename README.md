@@ -79,7 +79,7 @@ ___
 
 <kbd>APRENDA COMIGO → [MARKDOWN](https://github.com/karinkau/karinkau/blob/main/markdown.md#user-content-fn-note-7944a2dd9f6f6d9f067f2020848d982c)</kbd>
 
-♦ [Imagem em formato circular](../javascript/exercicios/aula12ex/imagem-em-formato-circular.pdf)
+♦ [Imagem em formato circular](https://karinkau.github.io/javascript/exercicios/aula12ex/imagem-em-formato-circular.pdf)
 
 <kbd>`ass:` *Karine s m Rodrigues* @karinkau</kbd>
 
