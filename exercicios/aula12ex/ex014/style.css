@@ -2,16 +2,15 @@
     LAYOUT SIMPLES PARA PRATICA DE EXERCÍCIOS 
 
     AULA 12 EX – parte de exercícios
+    Exercício: ex014
     Arquivo: modelo.html
-    MODELO DE SITE
 ======================================================= */
 
 @charset "UTF-8";
 
 /*corpo do site*/
 body{
-    background: darkcyan;
-    font: normal 15pt Verdana;
+    font: bold 18pt Verdana;
     color: #000;
 }
 
@@ -27,19 +26,17 @@ header{
 section{
     background: #fff;
     border-radius: 20px;
-    padding: 30px;
+    padding: 15px;
     width: 500px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.314);
 }
 
-div#div1{
-    background: aquamarine;
-    margin-bottom: 20px;
-}
-
-div#div2{
-    background: aqua;
+div {
+    /*centraliza os elementos*/
+    text-align: center;
+    padding: 10px;
+    background-color: aquamarine;
 }
 
 /*rodapé*/

@@ -44,7 +44,7 @@ ___
 - [x] Aula 11 – Condições (Parte 1)
 - [x] Aula 12 – Condições (Parte 2)
 - [x] Exercícios JavaScript (Parte 1)
-- [ ] Exercícios JavaScript (Parte 2)
+- [x] Exercícios JavaScript (Parte 2)
 - [ ] Exercícios JavaScript (Parte 3)
 
 🌟Módulo E: Repetições em JavaScript – 5 aulas:
@@ -66,7 +66,7 @@ ___
 ♦ Teste JavaScript.
 ___
 
-## Métricas do repositório
+## Métricas
 
 <!--badges - emblemas-->
 |<img src="https://img.shields.io/website?down_color=red&down_message=Desculpe!&label=Site&color=darkred&labelColor=ffff00&logo=javascript&logoColor=red&logoWidth=20&style=flat&up_color=blue&up_message=online&url=https://karinkau.github.io/javascript/"/>|<img src="https://img.shields.io/github/license/karinkau/javascript?label=Licenca&color=darkred&labelColor=ffff00&logo=github&logoColor=red&logoWidth=20&style=flat"/>|<img src="https://img.shields.io/github/watchers/karinkau/javascript?label=Observadores&color=darkred&labelColor=ffff00&logo=Odnoklassniki&logoColor=red&logoWidth=20&style=flat"/>|<img src="https://img.shields.io/github/stars/karinkau/javascript?label=Estrelas&color=darkred&labelColor=ffff00&logo=Codemagic&logoColor=red&logoWidth=20&style=flat"/>|<img src="https://img.shields.io/github/issues/karinkau/javascript?label=Issues&color=darkred&labelColor=ffff00&logo=Indeed&logoColor=red&logoWidth=20&style=flat"/>|
@@ -74,7 +74,12 @@ ___
 |<img src="https://img.shields.io/github/forks/karinkau/javascript?label=Forks&color=darkred&labelColor=ffff00&logo=Codeforces&logoColor=red&logoWidth=20&style=flat"/>|<img src="https://img.shields.io/github/issues-pr/karinkau/javascript?label=Pull+requests&color=darkred&labelColor=ffff00&logo=AdBlock&logoColor=red&logoWidth=20&style=flat"/> |<img src="https://img.shields.io/github/languages/code-size/karinkau/javascript?label=Volume+de+codigo&color=darkred&labelColor=ffff00&logo=CodeSandbox&logoColor=red&logoWidth=20&style=flat"/>|<img src="https://img.shields.io/github/commit-activity/y/karinkau/javascript?label=Commits+por+ano&color=darkred&labelColor=ffff00&logo=Intercom&logoColor=red&logoWidth=20&style=flat"/>|<img src="https://img.shields.io/github/repo-size/karinkau/javascript?label=Volume+do+repositorio&color=darkred&labelColor=ffff00&logo=CodePen&logoColor=red&logoWidth=20&style=flat"/>|
 
 ___
+
 ### Aprender - Ensinar - Divulgar
 
-<kbd>`ass:` Karine s m Rodrigues - *@KarinKau* 2022</kbd>
+<kbd>APRENDA COMIGO → [MARKDOWN](https://github.com/karinkau/karinkau/blob/main/markdown.md#user-content-fn-note-7944a2dd9f6f6d9f067f2020848d982c)</kbd>
+
+♦ [Imagem em formato circular](../javascript/exercicios/aula12ex/imagem-em-formato-circular.pdf)
+
+<kbd>`ass:` *Karine s m Rodrigues* @karinkau</kbd>
 
