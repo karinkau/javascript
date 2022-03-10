@@ -1,0 +1,18 @@
+/*Estilo do desafio nº 1*/
+
+@charset "UTF-8";
+
+/*botões do desafio 1*/
+input {
+    font-family: 'Faster One', cursiva;;
+    font-size: 30pt;         
+    color: #000;
+    background-color: #FFD700; 
+    padding: 30px; 
+    border-radius: 70px; 
+    border-style: outset;
+    border-color: #FFFF30;
+    margin: 25px;
+    margin-left: 50px;
+}
+input:hover{background-color: #FFFF00;}
