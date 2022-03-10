@@ -143,17 +143,6 @@ main strong {
     font-family: var(--font-códigos);
 }
 
-/*
-main img{
-    width: 100%;
-}
-
-main img.pequena{
-    max-width: 350px;
-    display: block;
-    margin: auto;
-}*/
-
 /*links da página*/
 main a {
     text-decoration: none;
@@ -209,7 +198,7 @@ aside {
 }
 
 aside > ul {
-    list-style-type: none;  /*\2714\00A0\00A0*/
+    list-style-type: none;  
     list-style-position: inside;
     columns: 2;
 }
