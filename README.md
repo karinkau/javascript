@@ -68,7 +68,7 @@ ___
 - [x] Desafio nº 1 -  [Resolução nº 1](https://karinkau.github.io/javascript/desafios/1-desafio/desafio1.html)
 - [x] Desafio nº 2 - [Resolução nº 2](https://karinkau.github.io/javascript/desafios/2-desafio/desafio2.html)
 - [x] Desafio nº 3 - [Resolução nº 3](https://karinkau.github.io/javascript/desafios/3-desafio/desafio3.html)
-- [ ] Desafio nº 4
+- [x] Desafio nº 4 - [Resolução nº 4](https://karinkau.github.io/javascript/desafios/4-desafio/desafio4.html)
 - [ ] Desafio nº 5
 - [ ] Desafio nº 6
 - [ ] Desafio nº 7
