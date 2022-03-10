@@ -43,8 +43,8 @@ ___
 
 - [x] Aula 11 – Condições (Parte 1)
 - [x] Aula 12 – Condições (Parte 2)
-- [x] Exercícios JavaScript (Parte 1)
-- [x] Exercícios JavaScript (Parte 2)
+- [x] Exercícios JavaScript (Parte 1) - [Modelo de site](https://karinkau.github.io/javascript/exercicios/aula12ex/modelo/modelo.html)
+- [x] Exercícios JavaScript (Parte 2) - [Exercício 14](https://karinkau.github.io/javascript/exercicios/aula12ex/ex014/modelo.html)
 - [ ] Exercícios JavaScript (Parte 3)
 
 🌟Módulo E: Repetições em JavaScript – 5 aulas:
@@ -62,6 +62,22 @@ ___
 - [ ] Exercícios JavaScript (Parte 7)
 - [ ] Exercícios JavaScript (Parte 8)
 - [ ] Aula 17 – Próximos Passos
+
+🌟 Desafios em JS - [Desafios em JS](https://karinkau.github.io/javascript/desafios-em-js.html)
+
+- [x] Desafio nº 1 -  [Resolução nº 1](https://karinkau.github.io/javascript/desafios/1-desafio/desafio1.html)
+- [x] Desafio nº 2 - [Resolução nº 2](https://karinkau.github.io/javascript/desafios/2-desafio/desafio2.html)
+- [ ] Desafio nº 3
+- [ ] Desafio nº 4
+- [ ] Desafio nº 5
+- [ ] Desafio nº 6
+- [ ] Desafio nº 7
+- [ ] Desafio nº 8
+- [ ] Desafio nº 9
+- [ ] Desafio nº 10
+- [ ] Desafio nº 11
+- [ ] Desafio nº 12
+- [ ] Desafio nº 13
 
 ♦ Teste JavaScript.
 ___
