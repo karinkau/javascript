@@ -45,7 +45,7 @@ ___
 - [x] Aula 12 – Condições (Parte 2)
 - [x] Exercícios JavaScript (Parte 1) - [Modelo de site](https://karinkau.github.io/javascript/exercicios/aula12ex/modelo/modelo.html)
 - [x] Exercícios JavaScript (Parte 2) - [Exercício 14](https://karinkau.github.io/javascript/exercicios/aula12ex/ex014/modelo.html)
-- [ ] Exercícios JavaScript (Parte 3)
+- [x] Exercícios JavaScript (Parte 3) - [Exercício 15](https://karinkau.github.io/javascript/exercicios/aula12ex/ex015/modelo.html)
 
 🌟Módulo E: Repetições em JavaScript – 5 aulas:
 
