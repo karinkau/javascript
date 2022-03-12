@@ -97,5 +97,7 @@ ___
 
 ♦ [Imagem em formato circular](https://karinkau.github.io/javascript/exercicios/aula12ex/imagem-em-formato-circular.pdf)
 
+♦ [Imagens do Exercício 15 por Ricartty Martins](https://drive.google.com/file/d/1nqLuHSMi2i9cZ0rS7GQgHGAgOYxyFyXc/view?usp=sharing)
+
 <kbd>`ass:` *Karine s m Rodrigues* @karinkau</kbd>
 
