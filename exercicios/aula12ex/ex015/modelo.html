@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+     <!--Modelo de site-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--informação do site-->
+    <meta name="description" content="Modelo de site desenvolvido durante o Curso de Javascript em 2022">
+    <meta name="keywords" content="js, javascript, script, html5, css3, modelo de site">
+    <meta name="author" content="Karin-Kau">
+    <meta name="robots" content="javascript, follow">
+
+    <title>Verificador de idade ☺</title>
+
+    <!--Arquivos externos-->
+    <link rel="shortcut icon" href="../../../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!--cabeçalho-->
+    <header>
+        <h1>░ Verificador de idade ░</h1>
+    </header>
+
+    <!--seção principal-->
+    <section>
+        <div id="form"><!--formulário-->
+            <p>
+                Ano de nascimento:
+                <input type="number" name="txtAno" id="txtAno" min="0">
+            </p>
+            <p>
+                Sexo:
+                <input type="radio" name="radSex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radSex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" id="btnVerificar" onclick="verificar()">
+                <input type="button" value="Limpar dados" id="btnLimpar" onclick="limpar()">
+                <input type="button" value="Fechar" id="btnFechar" onclick="fechar()">
+            </p>
+        </div>
+        <div id="resultado"><!--resultado-->
+            <p>
+                Preencha os dados acima para ver o resultado.
+            </p>
+        </div>
+    </section>
+
+    <!--rodapé-->
+    <footer>
+        <p>| ► &copy; Desenvolvido por Karin Kau ◄ |</p>
+    </footer>
+</body>
+</html>

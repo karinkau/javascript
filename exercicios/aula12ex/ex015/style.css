@@ -1,0 +1,81 @@
+/* =====================================================
+    LAYOUT SIMPLES PARA PRATICA DE EXERCÍCIOS 
+    AULA 12 EX – parte de exercícios
+    Exercício: ex015
+    Arquivo: modelo.html
+======================================================= */
+
+@charset "UTF-8";
+
+/*corpo do site*/
+body{
+    background: darkcyan;
+    font: normal 15pt Verdana;
+    color: #000;
+}
+
+/*cabeçalho*/
+header{
+    font: bold 15pt 'Courier New', Courier, monospace;
+    color: blanchedalmond;
+    text-align: center;
+    text-decoration:underline overline;
+}
+ 
+/*seção principal*/
+section{
+    background: #fff;
+    border-radius: 20px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.314);
+}
+
+div {
+    /*centraliza os elementos*/
+    text-align: center;
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+
+/*rodapé*/
+footer{
+    color: blanchedalmond;
+    text-align: center;
+    font: italic 14pt Arial;
+}
+
+/*botões do formulário*/
+input#btnVerificar {
+    background-color: darkgreen;
+    color: white;
+    font: bold 18pt 'Courier New', Courier, monospace;
+}
+input#btnVerificar:hover {
+    background-color: greenyellow;
+    color: black;
+    font-size: 20pt;
+}
+
+input#btnLimpar {
+    background-color: darkgoldenrod;
+    color: white;
+    font: bold 18pt 'Courier New', Courier, monospace;
+}
+input#btnLimpar:hover {
+    background-color: gold;
+    color: black;
+    font-size: 20pt;
+}
+
+input#btnFechar {
+    background-color: darkred;
+    color: white;
+    font: bold 18pt 'Courier New', Courier, monospace;
+}
+input#btnFechar:hover {
+    background-color: red;
+    color: black;
+    font-size: 20pt;
+}
