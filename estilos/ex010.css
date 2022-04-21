@@ -1,0 +1,22 @@
+/* AULA 11 - ex010 */
+@charset "UTF-8";
+
+body {
+    background-color: rgba(79, 206, 206, 0.315);
+    font-family: verdana;
+    font-size: 18pt;
+}
+input#btncalcular {
+    background-color:rgb(0, 255, 13);
+    font-family: Geneva, sans-serif;
+    font-size: 18pt;
+}
+input#btncalcular:hover {
+    background-color: limegreen;
+    color: darkgreen;
+}
+strong {
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    font-weight: 600;
+}
