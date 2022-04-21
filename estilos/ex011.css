@@ -1,0 +1,50 @@
+/* AULA 11 - ex011 */
+@charset "UTF-8";
+
+body {
+    background-color: rgba(79, 206, 206, 0.315);
+    font-family: verdana;
+    font-size: 18pt;
+    padding: 20px;
+    padding-top: 0px;
+}
+input#btnverificar, #btnlimpar {
+    background-color:rgb(0, 255, 13);
+    font-family: Geneva, sans-serif;
+    font-size: 18pt;
+}
+input#btnverificar:hover, #btnlimpar:hover {
+    background-color: limegreen;
+    color: darkgreen;
+}
+input#btnfechar {
+    background-color: red;
+    color: black;
+    font-family: Impact, sans-serif;
+    font-size: 20pt;
+}
+input#btnfechar:hover {
+    background-color: darkred;
+    color: yellow;
+}
+input#txtpais{
+    background-color: azure;
+    font-size: 18pt;
+}
+input#txtpais:hover {
+    background-color: aliceblue;
+}
+strong {
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    font-weight: 600;
+}
+small{
+    font-size: 15pt; color: blueviolet;
+}
+div#resultado {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18pt;
+    font-style: oblique;
+}
+h1{color: darkblue; font-family:Impact, 'Arial Narrow Bold', sans-serif}
