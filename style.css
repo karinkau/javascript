@@ -164,6 +164,18 @@ main a:hover {
     background-color: var(--cor6);
 }
 
+a.link{
+    font-size: 0.8em;
+    color: var(--cor0);
+    background-color: var(--cor1)
+}
+
+a.link:hover{
+    text-decoration: none;
+    color: var(--cor0);
+    background-color: var(--cor6);
+}
+
 div.video {
     background-color: var(--cor5);
     margin: 0px -20px 30px -20px;
